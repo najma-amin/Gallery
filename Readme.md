@@ -11,7 +11,7 @@ The user can:
     Copy link to the photo
     View image details
 
-Setup/Installation Requirements
+## Setup/Installation Requirements
 Prerequisites
 
 *django2.2
