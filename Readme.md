@@ -14,7 +14,7 @@ The user can:
 ## Setup/Installation Requirements
 Prerequisites
 
-*django2.2
+*django1.11
 
     python3.6
     pip
