@@ -10,8 +10,8 @@
   <title> Gallery </title>
 
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <!-- <link rel="shortcut icon" href="{%  static 'favicon.ico' %}"> -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  
+  
   {% block styles %}
   {% bootstrap_css %}
   <link rel="stylesheet" href="{% static 'css/base.css' %}">
@@ -22,7 +22,7 @@
 
 </head>
 
-<body style="color:; background:">
+<body style="color: background :">
   {% include "navbar.html" %}
 
   {% block scripts %}
@@ -31,7 +31,7 @@
   <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
   {% endblock %}
   <div class="intro" style="text-align:center" style>
-    <h2>TUMAA-GALLERY</h4 >
+    <h2>OUR'S GALLERY</h4 >
     <h4>This is a web application that allows users to view photos.
      They can select them based on the location 
      where the photo was taken or the category of the photo.
@@ -44,7 +44,7 @@
 
           <form class="search-container" role="search" action="{% url 'search_results' %}">
             <input style="background:red" type="search" class="searchTerm" placeholder="searchCategory" name="searchCategory">
-            {% comment %} <button type="submit" class="searchButton"> <i class="fa fa-search" style="color:black;">Search</i></button> {% endcomment %}
+            {% comment %} <button type="submit" class="searchButton"> <i class="fa fa-search" style="color:blue;">Search</i></button> {% endcomment %}
           </form>
 
         </div>
