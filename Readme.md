@@ -55,7 +55,7 @@ Cloning and running
 
 For any questions, troubleshooting or contributions, find me on:
 
-    Email: najmaamin6498
+    Email: najmaamin10@gmail.com
     phone: 0720709074
 
 License
