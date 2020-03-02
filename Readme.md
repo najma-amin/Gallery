@@ -2,7 +2,7 @@
 ## NAJMA 
 Description
 This is a web application that allows users to view photos. They can select them based on the location where the photo was taken or the category of the photo..
-By Tumaa
+By Najma
 
 The user can:
 
