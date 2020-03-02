@@ -41,13 +41,24 @@ Cloning and running
 
         $ python3 manage.py runserver  
 
-Testing the Application
+## Testing the Application
 
     To run the tests for the class files:
 
         $ python3.6 manage.py test
 
-Technologies Used
+## Technologies Used
 
     Python 3.6
     Django 1.11
+## Support and contact details
+
+For any questions, troubleshooting or contributions, find me on:
+
+    Email: najmaamin6498
+    phone: 0720709074
+
+License
+
+MIT License Copyright (c) {2019}
+(Najma)
