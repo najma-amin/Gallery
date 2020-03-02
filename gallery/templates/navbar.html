@@ -14,18 +14,8 @@
 
 <body>
   <div class="w3-bar">
-    <a href="{% url 'initial' %}" class="navitem w3-center w3-bar-item w3-button w3-hover-grey " style="color:cornsilk; background: gray; border-radius: 30px">Gallery</a>
-    <div class="w3-dropdown-click w3-right locashen">
-      <button class="w3-button w3-hover-none" onclick="myFunction()" style=" color:cornsilk;
-                  background: grey; border-radius: 30px;">
-        Locations <i class="fa fa-caret-down"></i>
-      </button>
-      <div id="demo" class="w3-dropdown-content w3-bar-block w3-card ">
-        {% for onelocation in locations %}
-        <a href="{% url 'specific_location' onelocation.lname %}" class="w3-bar-item w3-hover-amber" style="color:black; background:skyblue">{{onelocation.lname}}</a>
-        {% endfor %}
-      </div>
-    </div>
+    <a href="{% url 'initial' %}" class="navitem w3-center w3-bar-item w3-button w3-hover-grey " style="color:cornsilk; background: rgb(128, 128, 128); border-radius: 30px">Home</a>
+   
   </div>
 
   <script>

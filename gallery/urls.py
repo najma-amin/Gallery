@@ -10,3 +10,5 @@ urlpatterns=[
     url(r'^search/', views.search_results, name='search_results'),
     url(r'^location/(\w+)', views.specific_location, name='specific_location')
 ]
+if settings.DEBUG:
+    urlpatterns+= static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
