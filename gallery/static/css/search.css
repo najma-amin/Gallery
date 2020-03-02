@@ -1,8 +1,10 @@
 
 
 img {
-	width: 50%;
+	width: 100%;
 }
 .hi{
-    font-size: small;
+    width: 100%;
+    position: center;
+    margin-left: 300px;
 }
